@@ -10,7 +10,6 @@ module.exports = {
 			md: "768px",
 			lg: "1024px",
 			xl: "1280px",
-			"2xl": "1536px",
 		},
 		colors: {
 			transparent: "transparent",
@@ -29,6 +28,7 @@ module.exports = {
 			buttifyGreen: "#5CDB95",
 			buttifyBG: "#FAFAFA",
 			buttifyBG2: "#E5E5E5",
+			buttifyqna: "rgba(47, 46, 65, 0.6)",
 		},
 		spacing: {
 			px: "1px",

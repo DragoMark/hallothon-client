@@ -1,6 +1,6 @@
 const Navbar = () => {
 	return (
-		<div className="flex items-center justify-between px-6 bg-bg">
+		<div className="flex items-center justify-between py-2 px-6 bg-bg navbar__shadow">
 			<svg
 				width="149"
 				height="57"
