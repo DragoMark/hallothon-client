@@ -9,7 +9,7 @@ const Routes = () => {
 		<Router history={history}>
 			<Navbar></Navbar>
 			<Switch>
-				<Route path="/home" exact component={Home} />
+				<Route path="/" exact component={Home} />
 				<Route path="/summary" exact component={Summary} />
 			</Switch>
 		</Router>
