@@ -29,6 +29,8 @@ module.exports = {
 			buttifyBG: "#FAFAFA",
 			buttifyBG2: "#E5E5E5",
 			buttifyqna: "rgba(47, 46, 65, 0.6)",
+			buttifyqna2: "rgba(47, 46, 65, 0.8)",
+			buttifyblue: "#242582",
 		},
 		spacing: {
 			px: "1px",

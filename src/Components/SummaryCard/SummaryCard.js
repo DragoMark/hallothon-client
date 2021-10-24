@@ -19,7 +19,7 @@ const SummaryCard = () => {
 			}}
 		>
 			<p
-				className="font-noto font-normal text-lg text-buttifyqna text-left bg-buttifyBG"
+				className="font-noto font-normal text-lg text-buttifyqna text-left"
 				id="summary"
 			>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
@@ -28,11 +28,18 @@ const SummaryCard = () => {
 				excepturi quae magni tenetur voluptates, reiciendis numquam!
 				Laudantium odio doloribus ducimus hic quibusdam consequuntur
 				incidunt molestiae, odit consectetur quod laborum ut fugit nobis
-				cupiditate. Nobis?
+				cupiditate. Nobis? Lorem ipsum dolor sit amet consectetur
+				adipisicing elit. Sequi maxime libero explicabo officia
+				veritatis voluptatem? Illum sequi fugiat dignissimos
+				exercitationem, voluptatibus facilis voluptas ut sapiente
+				consequuntur voluptatem natus eius maxime error ea incidunt
+				nihil quibusdam molestias quia reiciendis voluptatum eaque fugit
+				commodi? Placeat ipsam odio praesentium quaerat voluptatum ex
+				officia!
 			</p>
 			<div className="flex flex-row w-full justify-end">
 				<button
-					className="mr-6 mb-4 bg-buttifyGreen w-20 h-12 rounded-3xl"
+					className="mr-6 mb-4 bg-buttifyGreen w-20 h-10 rounded-xl"
 					onClick={() =>
 						navigator.clipboard.writeText(
 							document.getElementById("summary").innerText

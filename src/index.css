@@ -4,19 +4,11 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 
-.questions__shadow {
-	border: 1px solid rgba(0, 0, 0, 0.05);
-	box-sizing: border-box;
-	box-shadow: -2px -2px 8px rgba(0, 0, 0, 0.02),
-		6px 6px 12px rgba(0, 0, 0, 0.08);
-	border-radius: 20px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.navbar__shadow {
-	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-::-webkit-scrollbar-thumb {
-	background: red;
-	border-radius: 0.625rem;
+:root {
+	font-size: 16px;
 }
